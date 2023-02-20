@@ -1,0 +1,42 @@
+.input-icon {
+  position: relative;
+}
+.trash-icon {
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  cursor: pointer;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-list > li:hover {
+  background-color: rgb(255, 153, 0) !important;
+}
+ul li a {
+  text-decoration: none;
+  color: #000;
+}
+a {
+  cursor: pointer;
+}
+.home,
+.about,
+.contact {
+  margin: 10px;
+  /* min-height: 100vh; */
+  /* border: 1px solid #000 !important; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

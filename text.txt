@@ -1,0 +1,1 @@
+BURADA fetch, react-router, react-redux, redux,  istifade olunub.
